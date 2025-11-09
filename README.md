@@ -135,7 +135,7 @@ limitations under the License.
 
 
 # user used  api
-
+```
 ./auto-client-jwt
 
 #api post create
@@ -377,6 +377,7 @@ curl --location --request PUT 'http://localhost:8088/apps/update/3' \
 
 #删除应用
 curl --location --request DELETE 'http://localhost:8088/apps/delete/2'
+```
 
 
 
