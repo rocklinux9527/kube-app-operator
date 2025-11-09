@@ -1,0 +1,9 @@
+apiVersion: apps.kube.com/v1alpha1
+kind: KubeApp
+metadata:
+  labels:
+    app.kubernetes.io/name: kube-app-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: kubeapp-sample
+spec:
+  # TODO(user): Add fields here
